@@ -1,16 +1,38 @@
 body {
+	min-height: 100%;
+	background: #eee
 	font-family: Georgia, serif;
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
+	color: #000000;
+	line-height: 26px;
+	padding-bottom: 50px;
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 24px;
 }
 
 h2 {
-	color: #ffffff;
-	font-size: 56px; 
+	font-size: 20px; 
+}
+h3 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 14px;
+}
+h4{
+	font-size: 12px;
+}
+.center-div{
+	text-align: left;
+}
+	
+.container{
+	max-width: 680px;
+	background: #fff;
+	padding: 35px;
+	margin-top: 40px;
+}
+.header{
+	margin-bottom: 20px;
 }
